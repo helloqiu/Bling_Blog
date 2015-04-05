@@ -1,6 +1,7 @@
 # Bling Blog
 ##Description:
 A android app which is a blog.  
+It's obviously that i haven't finshed it yetT_T  
 Just enjoy it~  
 ###Screen shot:  
 Login layout :   
