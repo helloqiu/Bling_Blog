@@ -6,7 +6,7 @@ android {
 
     defaultConfig {
         applicationId "com.helloqiu.helloworld"
-        minSdkVersion 21
+        minSdkVersion 17
         targetSdkVersion 21
         versionCode 1
         versionName "1.0"
@@ -27,4 +27,5 @@ dependencies {
     compile 'com.android.support:appcompat-v7:22.0.0'
     compile 'com.rengwuxian.materialedittext:library:2.0.3'
     compile 'com.github.navasmdc:MaterialDesign:1.+@aar'
+
 }
