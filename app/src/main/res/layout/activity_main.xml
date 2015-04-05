@@ -5,14 +5,24 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
 
-    <LinearLayout
-        android:orientation="vertical"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Bling Blog"
+        android:id="@+id/title"
+        android:textSize="50dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:paddingLeft="9dp"
-        android:paddingRight="9dp">
+        android:layout_marginTop="34dp"
+        android:layout_alignParentEnd="false"
+        android:textColor="@color/secondary_text" />
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_alignParentStart="true"
+        android:name="com.helloqiu.helloworld.fragments.LoginFragment"
+        android:id="@+id/fragment_login" />
 
-    </LinearLayout>
 </RelativeLayout>

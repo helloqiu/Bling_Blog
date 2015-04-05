@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingLeft="6dp"
+        android:paddingRight="6dp"
+        android:paddingTop="20dp">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/username_image"
+            android:src="@drawable/ic_action_person" />
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:met_baseColor="@color/divider"
+            app:met_textColor="@color/primary_text"
+            app:met_primaryColor="@color/divider"
+            app:met_floatingLabel="normal"
+            app:met_floatingLabelText="Username"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingLeft="6dp"
+        android:paddingRight="6dp"
+        android:paddingTop="15dp">
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="60dp" />
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            app:met_baseColor="@color/divider"
+            app:met_textColor="@color/primary_text"
+            app:met_primaryColor="@color/divider"
+            app:met_floatingLabel="normal"
+            app:met_floatingLabelText="Password"
+            />
+    </LinearLayout>
+    <com.gc.materialdesign.views.ButtonRectangle
+        android:id="@+id/login_button"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="@color/accent"
+        color="@color/icons"
+        android:text="@string/login_name"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="30dp" />
+    <com.gc.materialdesign.views.ButtonRectangle
+        android:id="@+id/register_button"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="@color/accent"
+        color="@color/icons"
+        android:text="@string/register_name"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="18dp" />
+</LinearLayout>

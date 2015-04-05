@@ -11,6 +11,7 @@
         <!--   theme UI controls like checkboxes and text fields -->
         <item name="android:colorAccent">@color/accent</item>
         <item name="android:textColorPrimary">@color/icons</item>
+        <item name="android:textColor">@color/primary_text</item>
         <item name="android:actionMenuTextColor">@color/primary_text</item>
         <item name="actionMenuTextColor">@color/primary_text</item>
     </style>
