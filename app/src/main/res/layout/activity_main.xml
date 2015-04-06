@@ -27,6 +27,7 @@
         android:layout_below="@+id/title"
         android:layout_alignParentStart="true"
         android:name="com.helloqiu.helloworld.fragments.LoginFragment"
-        android:id="@+id/fragment_login" />
+        android:id="@+id/fragment_login"
+        tools:layout="@layout/login_fragment" />
 
 </RelativeLayout>
